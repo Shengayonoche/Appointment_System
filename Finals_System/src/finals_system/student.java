@@ -750,7 +750,7 @@ try (Connection con = DriverManager.getConnection(
         if (rowsAffected > 0) {
            
             
-           new booked().setVisible(true);
+          // new booked().setVisible(true);
             
           time.setSelectedIndex(-1); // For JComboBox (dropdown)
 date.setDate(null); // For JDateChooser
